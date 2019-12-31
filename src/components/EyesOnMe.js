@@ -3,8 +3,15 @@ import React from 'react'
 
 export default class EyesOnMe extends React.Component {
 
-  focusHandler = () => {
-    return console.log('Good!')
+  constructor () {
+    super ()
+    this.focusHandler = this.focusHandler.bind(this)
+    // binding at its finest!
+  }
+
+  focusHandler() {
+    console.log('Good!')
+    console.log(this)
   }
 
   blurHandler = () => {
