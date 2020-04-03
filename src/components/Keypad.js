@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 export default class KeyPad extends Component {
-    handleKeyUp = (event) => {
+    handleKeyUp = () => {
         console.log('Entering password...')
     }
 

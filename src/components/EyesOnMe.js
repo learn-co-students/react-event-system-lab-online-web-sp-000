@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
 
 export default class EyesOnMe extends Component {
-    focus = (event) => {
+    focus = () => {
         console.log('Good!')
     }
 
-    blur = (event) => {
+    blur = () => {
         console.log('Hey! Eyes on me!')
     }
 
