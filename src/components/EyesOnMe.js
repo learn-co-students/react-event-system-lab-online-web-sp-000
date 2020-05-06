@@ -12,7 +12,7 @@ export default class EyesOnMe extends React.Component {
       <button
         onFocus={this.handleFocus}
         onBlur={this.handleBlur}
-      ></button>
+      >Look sharp!</button>
     )
   }
 }
