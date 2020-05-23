@@ -2,9 +2,6 @@
 import React from 'react';
 
 class EyesOnMe extends React.Component {
-  constructor() {
-    this.name = 'name';
-  }
 
   handleOnFocus = () => console.log('Good!')
   
