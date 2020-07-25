@@ -3,21 +3,21 @@ import React from 'react'
 export default  class EyesOnMe extends React.Component {
     
 
-    focusHandler = () => {
+    focusHandlers = () => {
 
         console.log("Good!")
     }
      
-    blurHandler = () => {
+    blurHandlers = () => {
         console.log ('Hey! Eyes on me!')
     }
     
 
     render() {
         return (
-       <button onClick={this.focusHandlers}></button>
+       <button onFocus={this.focusHandlers} onBlur={this.blurHandlers}> Eyes on me, Please!</button>
        
-            
+           
         )
     }
     
