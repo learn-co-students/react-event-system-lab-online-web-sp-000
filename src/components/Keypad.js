@@ -3,7 +3,7 @@ import React from 'react'
 export default  class Keypad extends React.Component {
  
    passwordHandler = () => {
-   this.props = 'Entering password...'
+   console.log('Entering password...')
 
     }
 
