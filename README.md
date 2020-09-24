@@ -11,7 +11,7 @@ In this lab you'll respond to events in React and write event handlers.
 
 ## Keypad
 
-![Keypad](https://media.giphy.com/media/3o6MbdTboTFWOUsLkc/giphy.gif)
+<!-- ![Keypad](https://media.giphy.com/media/3o6MbdTboTFWOUsLkc/giphy.gif) -->
 
 Mr. Burns has requested us to build a new keypad component for the nuclear
 plant, since the last one was way too complicated for his employees to use.
