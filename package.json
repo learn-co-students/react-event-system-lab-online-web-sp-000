@@ -15,7 +15,7 @@
     "mocha": "^6.2.1",
     "react-scripts": "^1.0.7",
     "react-test-renderer": "^16.0.0",
-    "webpack": "^3.6.0",
+    "webpack": "^2.7.0",
     "webpack-dev-server": "^2.9.1"
   },
   "dependencies": {
@@ -29,9 +29,9 @@
     "enzyme": "^3.1.0",
     "enzyme-adapter-react-16": "^1.0.1",
     "mocha-multi": "^1.1.3",
-    "react": "^16.0.0",
+    "react": "^15.6.2",
     "react-addons-test-utils": "^15.4.2",
-    "react-dom": "^16.0.0",
+    "react-dom": "^15.6.2",
     "sinon": "^1.17.7"
   },
   "scripts": {
