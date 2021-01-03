@@ -7,10 +7,9 @@ export default class EyesOnMe extends Component {
     
     render() {
         return (
-            <button 
-                onFocus={this.focusEventHandler}
-                onBlur={this.blurEventHandler}
-            />
+            <button onFocus={this.focusEventHandler} onBlur={this.blurEventHandler}>
+                Submit
+            </button>
         )
     }
 }
