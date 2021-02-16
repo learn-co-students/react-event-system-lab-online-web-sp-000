@@ -41,5 +41,20 @@
     "dev:hot": "webpack-dev-server --hot --inline --progress --colors --watch --display-error-details --display-cached --content-base ./",
     "test:watch": "npm run test -- --watch",
     "eject": "react-scripts eject"
-  }
+  },
+  "description": "## Overview",
+  "main": "webpack.config.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoeDeGr/react-event-system-lab-online-web-sp-000.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoeDeGr/react-event-system-lab-online-web-sp-000/issues"
+  },
+  "homepage": "https://github.com/JoeDeGr/react-event-system-lab-online-web-sp-000#readme"
 }
