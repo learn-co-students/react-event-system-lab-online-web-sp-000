@@ -11,8 +11,8 @@
     ]
   },
   "devDependencies": {
-    "jsdom": "^9.9.1",
-    "mocha": "^6.2.1",
+    "jsdom": "10.0.0",
+    "mocha": "^5.0.0",
     "react-scripts": "^1.0.7",
     "react-test-renderer": "^16.0.0",
     "webpack": "^3.6.0",
