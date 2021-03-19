@@ -3,12 +3,12 @@ import React, { Component } from 'react';
 
 export default class Keypad extends Component {
     render(){
-        pwUpdate = () => {
+        const handleKeyUp = () => {
             console.log('Entering password...')
         }
 
         return(
-            <input onKeyUp={this.pwUpdate} type="password" />
+            <input onKeyUp={handleKeyUp} type="password" />
         )
     }
 }
