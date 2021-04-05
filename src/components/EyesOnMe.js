@@ -17,7 +17,7 @@ export default class EyesOnMe extends Component {
   
     render() {
       return (
-          <button onFocus={this.handleFocus} onBlur={this.handleBlur}>Tickle me!</button>
+          <div><button onFocus={this.handleFocus} onBlur={this.handleBlur}>Tickle me!</button></div>
   
       )
     }
